@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-      {data.name && <Gallery image={data.sprites.front_default} name={data.name} weight={data.weight}/>}
+      {data.name && <Gallery image={data.sprites.front_default} name={data.name} weight={data.weight} id={data.id}/>}
       <ButtonBar setPokemonId={setPokemonId} pokemonId={pokemonId}/>
     </div>
   );

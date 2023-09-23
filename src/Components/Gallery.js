@@ -4,6 +4,7 @@ export default function Gallery(props) {
             <img src={props.image} alt={props.name} width="300" />
             <h2>{props.name}</h2>
             <p>Weight: {props.weight}</p>
+            <p>ID: {props.id}</p>
         </div>
     )
 }
